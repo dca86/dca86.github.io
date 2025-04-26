@@ -100,14 +100,16 @@ header {
 
 .resume_skills .skills_list {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 5px;
+  
 }
 
 .resume_skills .skills_list .skills_bar p {
   position: relative;
   width: 125px;
-  height: 20px;
+  height: 15px;
   background: #fff;
 }
 
@@ -115,7 +117,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background: #032c42;
+  background: #040023;
   width: 100%;
   height: 100%;
 }
